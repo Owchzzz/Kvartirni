@@ -1,0 +1,13 @@
+Options +FollowSymLinks
+RewriteEngine On
+#RewriteCond %{HTTP_HOST} ^www\.kvartirni\.ru$ [NC]
+RewriteRule ^([^/]*)\.html /index.php?page=$1 [L]
+
+#RewriteCond %{HTTP_HOST} ^((.*))kvartirni.ru$
+#RewriteRule ^(.*) /$1
+#RewriteRule (.*) multisite.php?city=$1 [L]
+
+RewriteCond %{HTTP_HOST} ^([^/]*)\.kvartirni\.ru$
+#RewriteRule ^\.html multisite.php?city=%1&page=$1 [L]
+RewriteCond %{REQUEST_URI} !search\.php* [NC]
+RewriteRule ^(.*)$ multisite.php?city=%1&page=$1 [L,QSA]

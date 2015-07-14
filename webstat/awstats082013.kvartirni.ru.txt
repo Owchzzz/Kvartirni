@@ -1,0 +1,691 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201308 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.kvartirni.ru.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1992                
+POS_TIME 2679                
+POS_VISITOR 16215               
+POS_DAY 19941               
+POS_DOMAIN 3527                
+POS_LOGIN 3759                
+POS_ROBOT 3914                
+POS_WORMS 4395                
+POS_EMAILSENDER 4526                
+POS_EMAILRECEIVER 4669                
+POS_SESSION 20305               
+POS_SIDER 20512               
+POS_FILETYPES 4804                
+POS_DOWNLOADS 5074                
+POS_OS 5122                
+POS_BROWSER 5251                
+POS_SCREENSIZE 5642                
+POS_UNKNOWNREFERER 5716                
+POS_UNKNOWNREFERERBROWSER 5879                
+POS_ORIGIN 5961                
+POS_SEREFERRALS 6108                
+POS_PAGEREFS 6278                
+POS_SEARCHWORDS 10907               
+POS_KEYWORDS 13078               
+POS_MISC 2342                
+POS_ERRORS 15056               
+POS_CLUSTER 3615                
+POS_SIDER_404 15199               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20130813235650 1433 336759 10683740753015
+FirstTime 20130801121010
+LastTime 20130813194212
+LastUpdate 20130814000948 1433 0 1433 0 0
+TotalVisits 131                 
+TotalUnique 87                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 90                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 56 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 36 70 209838
+1 5 175 1352565 1839 1909 4149552
+2 19 669 5439962 5196 5294 11192939
+3 1 38 356000 34 88 387801
+4 0 0 0 29 33 217507
+5 0 0 0 88 156 377534
+6 4 140 1082052 1477 1508 3272619
+7 24 817 6482865 6899 7027 14766039
+8 5 71 583812 550 628 1548632
+9 8 112 822690 1331 1381 2998893
+10 112 2385 13225984 16332 16571 34605506
+11 55 647 216944 29 67 81814
+12 12 173 564945 89 141 381651
+13 4 144 327570 37 76 289347
+14 2 27 14776 33 76 303448
+15 23 115 172086 31 46 142112
+16 63 458 1648505 1727 1816 3720983
+17 64 622 1881106 183 283 480522
+18 61 444 3151712 3351 3414 7169418
+19 47 1091 308774 67 142 285196
+20 1 1 15800 66 131 628023
+21 1 1 368 73 142 561322
+22 1 14 50915 40 63 178663
+23 0 0 0 92 153 497747
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 512 8144 37699431
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+yandex 285 1126518 20130813235334 0
+googlebot 135 526615 20130813235650 0
+nutch 105 382545 20130813235231 0
+[\s_+:,\.\;\/\\-]bot 56 208268 20130813230542 0
+bot[\s_+:,\.\;\/\\-] 35 342915 20130812024959 0
+crawl 18 284445 20130813062805 0
+no_user_agent 1 16002 20130803212409 0
+surveybot 1 4148 20130808214713 0
+msnbot\-media 1 15695 20130813013041 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 694 1371978 0 0
+png 4651 14682046 0 0
+ico 2 11455 0 0
+htm 3 5505 0 0
+php 97 645614 0 0
+html 318 1201900 0 0
+shtml 1 489 0 0
+js 1586 16179158 0 0
+jpg 697 3224976 0 0
+Unknown 93 375856 0 0
+gif 2 454 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 8
+winlong 102
+winxp 2994
+linuxubuntu 2035
+winvista 44
+linux 7
+win7 2920
+macosx 39
+Unknown 3
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 21
+msie6.0 530
+opera9.23 35
+firefox3.6.11 35
+firefox2.0.0.1 1
+chrome28.0.1500.95 1849
+safari6.0 38
+firefox3.6.16 1
+chrome7.0.517.44 74
+curl 1
+opera9.80 986
+msie8.0 948
+chrome28.0.1500.72 47
+chrome24.0.1290.1 1
+chrome20.0.1132.47 2035
+mozilla 8
+chrome27.0.1453.93 7
+msie7.0 631
+firefox3.6.12 845
+firefox3.6.3 70
+chrome4.0.249.89 1
+firefox3.5 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/4.0_(compatible;_Synapse) 20130813181847
+curl/7.30.0 20130803211432
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 140 140
+From1 0 0
+From2 119 120
+From3 57 5091
+From4 196 2793
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 1 2
+yandex 118 118
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 94
+http://groznyjj.kvartirni.ru/new/cabinet.html 12 350
+http://groznyjj.kvartirni.ru/new/cabinet/profile 12 15
+http://groznyjj.kvartirni.ru/new/aparts/apartment.html 9 294
+http://lipeck.kvartirni.ru/new/aparts/apartlist.html 8 189
+http://lipeck.kvartirni.ru/new/aparts/apartment.html 5 131
+http://groznyjj.kvartirni.ru/new/aparts/apartlist.html 1 2
+http://lipeck.kvartirni.ru/new/aparts/apatment.html 1 9
+http://groznyjj.kvartirni.ru/new/aparts/add_apart.html 1 3
+http://gorno-altajjsk.kvartirni.ru/obyavlen.html 1 15
+http://groznyjj.kvartirni.ru 1 1
+http://vladikavkaz.kvartirni.ru/katalog.html 0 68
+http://lipeck.kvartirni.ru/katalog.html 0 34
+http://gorno-altajjsk.kvartirni.ru/index.html 0 38
+http://krasnodar.kvartirni.ru/katalog.html 0 34
+http://anadyr.kvartirni.ru/katalog.html 0 34
+http://kaluga.kvartirni.ru 0 43
+http://groznyjj.kvartirni.ru/katalog.html 0 34
+http://ivanovo.kvartirni.ru/katalog.html 0 34
+http://birobidzhan.kvartirni.ru/katalog.html 0 31
+http://orel.kvartirni.ru/katalog.html 0 34
+http://tambov.kvartirni.ru/katalog.html 0 68
+http://volgograd.kvartirni.ru/katalog.html 0 68
+http://tjumen.kvartirni.ru/katalog.html 0 68
+http://perm.kvartirni.ru/katalog.html 0 68
+http://novosibirsk.kvartirni.ru/katalog.html 0 34
+http://velikijj-novgorod.kvartirni.ru/katalog.html 0 68
+http://moskva.kvartirni.ru/katalog.html 0 34
+http://tver.kvartirni.ru/katalog.html 0 68
+http://petrozavodsk.kvartirni.ru/katalog.html 0 68
+http://saransk.kvartirni.ru/katalog.html 0 34
+http://nalchik.kvartirni.ru/katalog.html 0 34
+http://petrozavodsk.kvartirni.ru/index.html 0 76
+http://makhachkala.kvartirni.ru/katalog.html 0 102
+http://kursk.kvartirni.ru/katalog.html 0 34
+http://rostov-na-donu.kvartirni.ru 0 14
+http://khabarovsk.kvartirni.ru/katalog.html 0 68
+http://samara.kvartirni.ru/index.html 0 76
+http://syktyvkar.kvartirni.ru/katalog.html 0 68
+http://stavropol.kvartirni.ru/katalog.html 0 68
+http://izhevsk.kvartirni.ru/katalog.html 0 34
+http://groznyjj.kvartirni.ru/new/profile 1 1
+http://cherkessk.kvartirni.ru/katalog.html 0 68
+http://pskov.kvartirni.ru/katalog.html 0 65
+http://groznyjj.kvartirni.ru/new/aparts/apartment.html%20- 1 9
+http://gorno-altajjsk.kvartirni.ru/katalog.html 0 102
+http://majjkop.kvartirni.ru/katalog.html 0 34
+http://saratov.kvartirni.ru/katalog.html 0 68
+http://penza.kvartirni.ru 0 14
+http://rjazan.kvartirni.ru/katalog.html 0 68
+http://arkhangelsk.kvartirni.ru/katalog.html 0 34
+http://brjansk.kvartirni.ru/katalog.html 0 34
+http://kurgan.kvartirni.ru/katalog.html 0 34
+http://murmansk.kvartirni.ru/katalog.html 0 34
+http://smolensk.kvartirni.ru/katalog.html 0 34
+http://tula.kvartirni.ru/katalog.html 0 68
+http://lipeck.kvartirni.ru 1 15
+http://saratov.kvartirni.ru/index.html 0 76
+http://narjan-mar.kvartirni.ru/katalog.html 0 68
+http://rostov-na-donu.kvartirni.ru/katalog.html 0 68
+http://gorno-altajjsk.kvartirni.ru 1 1
+http://kaliningrad.kvartirni.ru/katalog.html 0 34
+http://cheboksary.kvartirni.ru/katalog.html 0 34
+http://omsk.kvartirni.ru/katalog.html 0 34
+http://belgorod.kvartirni.ru/katalog.html 0 34
+http://uljanovsk.kvartirni.ru/katalog.html 0 68
+http://jakutsk.kvartirni.ru/katalog.html 0 67
+http://kyzyl.kvartirni.ru/katalog.html 0 34
+http://irkutsk.kvartirni.ru/katalog.html 0 34
+http://vladimir.kvartirni.ru/katalog.html 0 68
+http://jaroslavl.kvartirni.ru/katalog.html 0 34
+http://kirov.kvartirni.ru/katalog.html 0 68
+http://astrakhan.kvartirni.ru/katalog.html 0 68
+http://juzhno-sakhalinsk.kvartirni.ru/katalog.html 0 34
+http://vladivostok.kvartirni.ru/katalog.html 0 68
+http://khanty-mansijjsk.kvartirni.ru/katalog.html 0 34
+http://voronezh.kvartirni.ru/katalog.html 0 68
+http://magas.kvartirni.ru/katalog.html 0 34
+http://barnaul.kvartirni.ru/katalog.html 0 32
+http://salekhard.kvartirni.ru/katalog.html 0 68
+http://perm.kvartirni.ru/index.html 0 38
+http://groznyjj.kvartirni.ru/new/profile.html 1 8
+http://penza.kvartirni.ru/katalog.html 0 34
+http://krasnojarsk.kvartirni.ru/katalog.html 0 68
+http://lipeck.kvartirni.ru/new/aparts/apartlist.htm 1 9
+http://samara.kvartirni.ru/katalog.html 0 68
+http://petropavlovsk-kamchatskijj.kvartirni.ru/katalog.html 0 68
+http://ulan-udeh.kvartirni.ru/katalog.html 0 66
+http://anadyr.kvartirni.ru 0 37
+http://magadan.kvartirni.ru/katalog.html 0 34
+http://kemerovo.kvartirni.ru/katalog.html 0 68
+http://ekaterinburg.kvartirni.ru/katalog.html 0 68
+http://orenburg.kvartirni.ru/katalog.html 0 68
+http://cheljabinsk.kvartirni.ru/katalog.html 0 34
+http://chita.kvartirni.ru/katalog.html 0 68
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 72
+gorno-altajjsk.kvartirni.ru 4
+saratov.kvartirni.ru 4
+samara.kvartirni.ru 4
+petrozavodsk.kvartirni.ru 4
+perm.kvartirni.ru 3
+makhachkala.kvartirni.ru 3
+pskov.kvartirni.ru 2
+kemerovo.kvartirni.ru 2
+petropavlovsk-kamchatskijj.kvartirni.ru 2
+krasnojarsk.kvartirni.ru 2
+moskva.kvartirni.ru 1
+nalchik.kvartirni.ru 1
+smolensk.kvartirni.ru 1
+majjkop.kvartirni.ru 1
+kaliningrad.kvartirni.ru 1
+murmansk.kvartirni.ru 1
+vladimir.kvartirni.ru 2
+jakutsk.kvartirni.ru 2
+astrakhan.kvartirni.ru 2
+penza.kvartirni.ru 1
+orel.kvartirni.ru 1
+birobidzhan.kvartirni.ru 1
+velikijj-novgorod.kvartirni.ru 2
+stavropol.kvartirni.ru 2
+tjumen.kvartirni.ru 2
+belgorod.kvartirni.ru 1
+uljanovsk.kvartirni.ru 2
+brjansk.kvartirni.ru 1
+tver.kvartirni.ru 2
+%d0%ba%d0%b2%d0%b0%d1%80%d1%82%d0%b8%d1%80%d1%8b+%d0%bf%d0%be%d1%81%d1%83%d1%82%d0%be%d1%87%d0%bd%d0%be+%d0%ba%d0%b0%d0%bb%d1%83%d0%b3%d0%b0 1
+sankt-peterburg.kvartirni.ru 1
+tula.kvartirni.ru 2
+irkutsk.kvartirni.ru 1
+cheljabinsk.kvartirni.ru 1
+ekaterinburg.kvartirni.ru 2
+omsk.kvartirni.ru 1
+kirov.kvartirni.ru 2
+vladivostok.kvartirni.ru 2
+salekhard.kvartirni.ru 2
+volgograd.kvartirni.ru 2
+magadan.kvartirni.ru 1
+tambov.kvartirni.ru 2
+narjan-mar.kvartirni.ru 2
+ivanovo.kvartirni.ru 1
+cheboksary.kvartirni.ru 1
+magas.kvartirni.ru 1
+rjazan.kvartirni.ru 2
+rostov-na-donu.kvartirni.ru 2
+khabarovsk.kvartirni.ru 2
+ulan-udeh.kvartirni.ru 2
+anadyr.kvartirni.ru 1
+cherkessk.kvartirni.ru 2
+voronezh.kvartirni.ru 2
+syktyvkar.kvartirni.ru 2
+novosibirsk.kvartirni.ru 1
+%d0%ba%d0%b2%d0%b0%d1%80%d1%82%d0%b8%d1%80%d1%8b+%d0%bf%d0%be%d1%81%d1%83%d1%82%d0%be%d1%87%d0%bd%d0%be+%d0%b0%d0%bd%d0%b0%d0%b4%d1%8b%d1%80%d1%8c 1
+krasnodar.kvartirni.ru 1
+orenburg.kvartirni.ru 2
+vladikavkaz.kvartirni.ru 2
+arkhangelsk.kvartirni.ru 1
+groznyjj.kvartirni.ru 1
+kursk.kvartirni.ru 1
+chita.kvartirni.ru 2
+kyzyl.kvartirni.ru 1
+khanty-mansijjsk.kvartirni.ru 1
+izhevsk.kvartirni.ru 1
+kurgan.kvartirni.ru 1
+barnaul.kvartirni.ru 1
+lipeck.kvartirni.ru 1
+juzhno-sakhalinsk.kvartirni.ru 1
+jaroslavl.kvartirni.ru 1
+saransk.kvartirni.ru 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 74
+gorno-altajjsk.kvartirni.ru 4
+saratov.kvartirni.ru 4
+samara.kvartirni.ru 4
+petrozavodsk.kvartirni.ru 4
+perm.kvartirni.ru 3
+makhachkala.kvartirni.ru 3
+pskov.kvartirni.ru 2
+kemerovo.kvartirni.ru 2
+petropavlovsk-kamchatskijj.kvartirni.ru 2
+krasnojarsk.kvartirni.ru 2
+moskva.kvartirni.ru 1
+nalchik.kvartirni.ru 1
+smolensk.kvartirni.ru 1
+kaliningrad.kvartirni.ru 1
+majjkop.kvartirni.ru 1
+murmansk.kvartirni.ru 1
+%d0%b0%d0%bd%d0%b0%d0%b4%d1%8b%d1%80%d1%8c 1
+vladimir.kvartirni.ru 2
+jakutsk.kvartirni.ru 2
+astrakhan.kvartirni.ru 2
+orel.kvartirni.ru 1
+penza.kvartirni.ru 1
+birobidzhan.kvartirni.ru 1
+velikijj-novgorod.kvartirni.ru 2
+tjumen.kvartirni.ru 2
+stavropol.kvartirni.ru 2
+belgorod.kvartirni.ru 1
+uljanovsk.kvartirni.ru 2
+%d0%ba%d0%b0%d0%bb%d1%83%d0%b3%d0%b0 1
+brjansk.kvartirni.ru 1
+tver.kvartirni.ru 2
+sankt-peterburg.kvartirni.ru 1
+tula.kvartirni.ru 2
+cheljabinsk.kvartirni.ru 1
+irkutsk.kvartirni.ru 1
+ekaterinburg.kvartirni.ru 2
+omsk.kvartirni.ru 1
+kirov.kvartirni.ru 2
+vladivostok.kvartirni.ru 2
+salekhard.kvartirni.ru 2
+volgograd.kvartirni.ru 2
+magadan.kvartirni.ru 1
+tambov.kvartirni.ru 2
+narjan-mar.kvartirni.ru 2
+ivanovo.kvartirni.ru 1
+cheboksary.kvartirni.ru 1
+magas.kvartirni.ru 1
+rjazan.kvartirni.ru 2
+rostov-na-donu.kvartirni.ru 2
+khabarovsk.kvartirni.ru 2
+ulan-udeh.kvartirni.ru 2
+anadyr.kvartirni.ru 1
+cherkessk.kvartirni.ru 2
+voronezh.kvartirni.ru 2
+syktyvkar.kvartirni.ru 2
+novosibirsk.kvartirni.ru 1
+krasnodar.kvartirni.ru 1
+orenburg.kvartirni.ru 2
+vladikavkaz.kvartirni.ru 2
+arkhangelsk.kvartirni.ru 1
+groznyjj.kvartirni.ru 1
+kursk.kvartirni.ru 1
+chita.kvartirni.ru 2
+khanty-mansijjsk.kvartirni.ru 1
+kyzyl.kvartirni.ru 1
+izhevsk.kvartirni.ru 1
+kurgan.kvartirni.ru 1
+barnaul.kvartirni.ru 1
+juzhno-sakhalinsk.kvartirni.ru 1
+lipeck.kvartirni.ru 1
+jaroslavl.kvartirni.ru 1
+%d0%bf%d0%be%d1%81%d1%83%d1%82%d0%be%d1%87%d0%bd%d0%be 2
+saransk.kvartirni.ru 2
+%d0%ba%d0%b2%d0%b0%d1%80%d1%82%d0%b8%d1%80%d1%8b 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+302 39950 85237217
+206 1 343
+500 84 35597
+301 8 4421
+404 260 126178
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 21
+/pages/i/slayd_1.jpg 2 http://kvartirni.ru/pages/index.php
+/new/media/i/next.png 8 http://kvartirni.ru/new/
+/robots.txt 47 -
+/admin.php 6 -
+/test 1 -
+/cmsmagazine37e07e6a2b4b6d8d2ec2107bb12f1f9f.txt 1 -
+/forums/ 1 -
+/forum/ 1 -
+/administrator/index.php 7 -
+/smf/ 1 -
+/test/ 1 -
+/country/savenew/ 1 http://kvartirni.ru/new/country/addnew/
+/vb/ 1 -
+/check_configuration.php 1 http://kvartirni.ru/check_configuration.php
+/i/next.png 25 http://kvartirni.ru/
+/css/i/loading.gif 113 http://makhachkala.kvartirni.ru/katalog.html
+/new/media/i/prev.png 8 http://kvartirni.ru/new/
+/country/addnew/ 2 http://kvartirni.ru/new/country.html
+/wp-login.php 6 -
+/i/prev.png 25 http://kvartirni.ru/
+/wp-admin/config.php 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 90
+176.108.151.96 200 2042 1464987 20130813163703
+125.60.240.201 177 1809 2166250 20130813194212
+91.202.198.73 5 86 726561 20130801172040
+5.164.110.228 4 140 1082052 20130807020549
+37.204.158.236 4 140 1082052 20130803182020
+195.91.224.113 4 148 1255036 20130807020931
+188.244.43.159 3 105 811539 20130803183341
+46.188.2.233 3 105 811539 20130807020321
+178.140.124.60 2 70 541026 20130807015801
+95.26.208.225 2 70 541026 20130811160147
+176.14.26.138 1 35 270513 20130803101728
+176.195.189.148 1 35 270513 20130803101502
+109.173.85.107 1 35 270513 20130803101955
+95.220.172.241 1 35 270513 20130803101923
+188.244.34.149 1 35 270513 20130802090555
+80.83.238.110 1 38 356000 20130812033218
+176.195.74.165 2 69 539790 20130803181405
+176.195.200.122 2 67 535667 20130807020040
+46.188.17.9 1 35 270513 20130803102026
+188.255.54.208 2 70 541026 20130807020215
+176.195.171.178 2 70 541026 20130811165016
+176.195.217.199 1 35 270513 20130803101343
+176.195.64.10 1 35 270513 20130803100914
+176.195.161.50 1 35 270513 20130802090357
+37.204.157.203 2 68 537877 20130807020035
+93.187.177.161 1 44 376995 20130803172744
+46.242.95.141 1 35 270513 20130803101724
+95.27.254.188 2 70 541026 20130807020432
+176.195.173.139 1 35 270511 20130803100843
+84.51.109.81 0 2 3986 
+128.74.239.165 2 70 541026 20130803182617
+93.80.152.233 1 35 270513 20130803101103
+46.73.157.195 1 35 270513 20130803101921
+95.25.133.149 2 74 627519 20130803101854
+46.188.45.252 1 35 270513 20130803102306
+128.72.14.232 1 35 270513 20130806072629
+95.221.6.224 1 35 270513 20130803101928
+95.221.86.222 2 74 627509 20130806072709
+188.244.34.119 1 35 270513 20130803101334
+176.195.219.13 2 70 541026 20130803182944
+37.144.233.96 1 35 270513 20130803181307
+95.221.1.4 2 70 541026 20130807021258
+128.74.236.85 2 70 541026 20130807020838
+95.27.143.202 1 35 270513 20130803101909
+79.143.187.164 1 1 15800 20130810203115
+95.220.139.15 1 35 270513 20130803101913
+46.73.21.236 2 70 541026 20130803181245
+176.195.246.13 1 35 270513 20130803101833
+95.26.182.45 1 35 270513 20130803101158
+176.192.184.0 2 70 541026 20130803102007
+46.242.25.172 1 1 368 20130803211432
+83.149.38.253 1 1 15174 20130811082849
+46.188.32.24 2 70 541026 20130807021328
+128.74.235.208 1 35 270513 20130803101946
+92.112.226.210 0 1 28880 
+95.24.17.156 1 35 270513 20130803100819
+94.24.160.182 2 2 31605 20130813181847
+128.68.222.133 1 35 270513 20130807015816
+176.195.82.214 1 33 266527 20130803101609
+176.195.62.123 1 35 270511 20130802085825
+95.28.62.95 2 36 274191 20130807020749
+78.106.171.12 2 70 541026 20130807015901
+128.69.188.134 2 70 541026 20130803101516
+95.143.31.143 2 70 541026 20130811163609
+95.25.42.11 2 70 541026 20130811160932
+46.241.7.137 2 70 541026 20130807021338
+46.73.53.169 2 74 627509 20130807021431
+62.205.181.198 1 1 15921 20130801121010
+46.242.30.39 2 78 713992 20130807021424
+95.220.132.27 1 35 270513 20130806073220
+5.166.227.216 2 70 541026 20130807020835
+46.73.101.94 1 35 270513 20130803100922
+176.9.64.180 2 2 31600 20130805085307
+94.180.136.94 1 32 265294 20130803101226
+176.195.241.156 1 35 270510 20130803101707
+89.253.30.97 1 30 316488 20130801133830
+95.28.151.69 1 39 356998 20130803102147
+95.28.149.40 1 35 270513 20130803101217
+95.25.122.107 1 35 270513 20130803102311
+95.27.254.159 1 35 270513 20130803100940
+199.30.25.22 0 6 17878 
+46.188.49.186 2 70 541026 20130807015656
+128.69.188.148 1 33 266527 20130803101655
+37.110.110.106 2 70 541026 20130803101956
+95.27.158.57 2 70 541026 20130807020216
+188.244.43.151 1 35 270513 20130807020827
+46.4.34.9 2 2 31605 20130808185642
+95.24.135.6 1 35 270513 20130806072156
+46.188.24.112 2 70 541026 20130803181332
+92.255.219.148 1 31 317708 20130807020603
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 12
+20130801 7 117 1058970 4
+20130802 5 175 1352563 5
+20130803 59 2015 15721660 54
+20130805 2 2 31600 1
+20130806 24 817 6482865 22
+20130807 24 844 6792527 22
+20130808 2 2 31605 2
+20130809 11 239 129714 1
+20130810 167 1811 1952515 3
+20130811 69 1019 2773051 10
+20130812 1 38 356000 1
+20130813 141 1065 1016361 6
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 3
+5mn-15mn 5
+0s-30s 115
+2mn-5mn 2
+15mn-30mn 2
+30s-2mn 2
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 45
+/katalog.html 108 397217 101 100
+/ 58 331859 26 24
+/new/aparts/add_apart 44 259569 1 1
+/new/finance 38 97706 0 1
+/new/aparts/apartment.html 26 117291 0 1
+/new/cabinet.html 25 65905 0 0
+/new/aparts/apartlist.html 23 68747 0 1
+/new/ 22 89019 2 0
+/myadmin/sql.php 19 106071 0 1
+/myadmin/tbl_addfield.php 16 147175 0 0
+/new/profile.html 2 2203 0 0
+/oplati.html 5 13951 0 0
+/new/users/users/login.html 2 1122 0 0
+/new/index.php/upload/do_upload.html 1 1102 0 0
+/new/index.php/new/ 1 1102 0 0
+/new/aparts/add_apart.htm 1 2230 0 0
+/new/aparts/apartment.html%20- 2 2203 0 0
+/new/aparts/ 2 1150 0 0
+/myadmin/tbl_create.php 11 137022 0 0
+/myadmin/navigation.php 9 23303 0 0
+/myadmin/tbl_structure.php 6 55327 0 0
+/new/index.php/country.html 3 4684 0 0
+/new/cabinet/profile 2 6060 0 0
+/myadmin/index.php 7 12069 0 0
+/new/country/addnew/ 10 17031 0 0
+/pd4.php 4 6676 0 1
+/forma.shtml 1 489 1 0
+/myadmin/phpmyadmin.css.php 12 83215 0 0
+/myadmin/db_structure.php 2 10089 0 0
+/new/test 3 2927 0 0
+/myadmin/js/messages.php 7 37371 0 0
+/new/upload.php 1 1065 0 0
+/new/aparts/apatment.html 2 3275 0 0
+/new/profile 2 2203 0 0
+/new/country/savenew/ 5 1771 0 0
+/obyavlen.html 3 13908 0 0
+/new/aparts/apartlist.htm 2 3275 0 0
+/myadmin/main.php 2 15353 0 0
+/myadmin/tbl_alter.php 1 10878 0 0
+/myadmin/ 2 6252 0 0
+/new/users/registration.html 2 3674 0 0
+/new/cabinet 2 5188 0 0
+/new/aparts/add_apart.html 8 47491 0 1
+/new/country.html 7 12045 0 0
+/new/index.php/new/country.html 1 1101 0 0
+END_SIDER

@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>Квартиры посуточно</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="div_login">
+      <form action="#" method="post" class="form_login">
+        <input type="text" placeholder="имя пользователя" />
+        <input type="password" placeholder="пароль" />
+        <input type="submit" value="войти" />
+        <a href="#">Регистрация</a> <a href="#">Восстановление пароля</a>
+      </form>
+    </div>
+    <div class="login_open">
+      <p class="p_name">Валера (Soft35)</p>
+      <a href="#" class="link_output">выйти</a> <a href="mailto:kvartira@soft35.ru" class="link_email">kvartira@soft35.ru</a> <a href="#" class="link_obnov">&nbsp;</a>
+      <p class="p_chet">У Вас на <span>100500 руб.</span></p>
+      <a href="#">Кабинет</a> <a href="#">Редактировать данные</a> </div>
+    <form action="#" method="post" class="form_currency">
+      <label>Валюта</label>
+      <select class="selectBlock">
+        <option>USD</option>
+        <option>EURO</option>
+        <option>РУБ</option>
+      </select>
+    </form>
+    <a href="index.html"><img src="i/logo.png" alt="" class="logo"/></a>
+    <ul class="nav">
+      <li><a href="index.html">Главная</a></li>
+      <li class="active"><a href="katalog.html">Каталог квартир</a></li>
+      <li><a href="#">Партнерская программа</a></li>
+    </ul>
+  </div>
+  <!--header-->
+  <div class="section">
+    <div class="filtp">
+      <form action="#" method="post" class="form_filtr">
+        <h1>Фильтр квартир</h1>
+        <div class="div_form_1">
+          <label>Страна</label>
+          <div class="sel_1">
+            <select class="selectBlock">
+              <option>Россия</option>
+              <option>Россия</option>
+              <option>Россия</option>
+            </select>
+          </div>
+          <label>Город</label>
+          <div class="sel_1">
+            <select class="selectBlock">
+              <option>Обнинск</option>
+              <option>Обнинск</option>
+              <option>Обнинск</option>
+            </select>
+          </div>
+          <label>Улица</label>
+          <div class="sel_1">
+            <select class="selectBlock">
+              <option>Выбирите</option>
+              <option>Выбирите</option>
+              <option>Выбирите</option>
+            </select>
+          </div>
+          <label>Количество комнат</label>
+          <div class="div_sel_1">
+            <select class="selectBlock">
+              <option>Все</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+            </select>
+          </div>
+          <label>Стоимость от</label>
+          <input type="text" value="" class="inp_1" />
+          <label class="label_do">до</label>
+          <input type="text" value=""  class="inp_1" />
+          <label class="label_do">РУБ</label>
+        </div>
+        <div class="div_form_2">
+          <p>Оборудование и услуги</p>
+          <input type="checkbox" id="check_1" class="styled"/>
+          <label for="check_1" class="label_c">телевизор</label>
+          <input type="checkbox" id="check_2" class="styled"/>
+          <label for="check_2" class="label_c">интернет</label>
+          <input type="checkbox" id="check_3" class="styled"/>
+          <label for="check_3" class="label_c">кондиционер</label>
+          <input type="checkbox" id="check_4" class="styled"/>
+          <label for="check_4" class="label_c">холодильник</label>
+          <input type="checkbox" id="check_5" class="styled"/>
+          <label for="check_5" class="label_c">кухонная плита</label>
+          <input type="checkbox" id="check_6" class="styled"/>
+          <label for="check_6" class="label_c">микроволновая печь</label>
+          <input type="checkbox" id="check_7" class="styled"/>
+          <label for="check_7" class="label_c">стиральная машина</label>
+          <input type="checkbox" id="check_8" class="styled" />
+          <label for="check_8" class="label_c">телефон</label>
+          <input type="checkbox" id="check_9" class="styled"/>
+          <label for="check_9" class="label_c">ванна/душ</label>
+        </div>
+        <div class="div_form_2">
+          <p>Доп. услуги</p>
+          <input type="checkbox" id="check_10" class="styled"/>
+          <label for="check_10" class="label_c">парковочное место</label>
+          <input type="checkbox" id="check_11" class="styled"/>
+          <label for="check_11" class="label_c">трансфер</label>
+          <input type="checkbox" id="check_12" class="styled"/>
+          <label for="check_12" class="label_c">отчетные документы</label>
+        </div>
+        <label class="label_id">ID квартиры</label>
+        <input type="text" class="inp_1" value=""/>
+        <div class="cL"></div>
+      </form>
+    </div>
+    <div class="section_catalog">
+      <div class="banner"> <a href="#"><img src="i/banner_1.jpg" alt="" /></a> </div>
+      <div class="article_catalog"> <a href="#"><img src="i/banner_2.jpg" alt=""  class="art_banner"/></a>
+        <div class="search_itog">
+          <p>Найдено вариантов — 935</p>
+          <p><span class="span_time">17:59</span> Местное время <span>Обнинск</span> </p>
+        </div>
+        <p class="p_sort">Сортировать по:<a href="#">Адресу</a><a href="#">Количеству комнат</a><a href="#">Цене</a></p>
+        <form action="#" method="post" class="form_page">
+          <label>объявлений на странице</label>
+          <select  class="selectBlock">
+            <option>10</option>
+            <option>20</option>
+            <option>30</option>
+          </select>
+        </form>
+        <ul class="nav_page">
+          <li class="prev_1"><a href="#">&nbsp;</a></li>
+          <li class="prev_2"><a href="#">&nbsp;</a></li>
+          <li><span>1</span></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">6</a></li>
+          <li class="span_tire"><span>...</span></li>
+          <li><a href="#">50</a></li>
+          <li class="next_2"><a href="#">&nbsp;</a></li>
+          <li class="next_1"><a href="#">&nbsp;</a></li>
+        </ul>
+        <div class="div_cat">
+          <div class="cat_pic"> <a href="i/pic_big.jpg" rel="colorbox"><img src="i/pic_cat.jpg" alt="" /></a>
+            <p><a href="#">Еще 4 фото</a></p>
+            <span>&nbsp;;</span> </div>
+          <div class="info_cat">
+            <p>сутки 3190 руб.<br />
+              час 350 руб.</p>
+            <h3><a href="#">1-комнатная квартира на сутки</a></h3>
+            <p class="cat_address">1-й Монечковский пер, д.18 <br />
+              м. Новокузнецкая (10 мин.)</p>
+            <a href="#" class="link_map">показать на карте</a>
+            <p class="p_id">ID 100500</p>
+            <p class="p_phone">8 (903) 508-37-55  Антон</p>
+            <p>Для порядочных и вежливых путешественников! Уютная, просторная, красивая квартира. Расположена в историческом центре Москвы. В пешей доступности от пяти станций метро павелецкая(зеленая и кольцевая ветки метро), добрынинская</p>
+            <a href="#" class="link_more">подробнее</a> </div>
+        </div>
+		<div class="div_cat">
+          <div class="cat_pic"> <a href="i/pic_big.jpg" rel="colorbox2"><img src="i/pic_cat.jpg" alt="" /></a>
+            <p><a href="#">Еще 4 фото</a></p>
+            <span>&nbsp;;</span> </div>
+          <div class="info_cat">
+            <p>сутки 3190 руб.<br />
+              час 350 руб.</p>
+            <h3><a href="#">1-комнатная квартира на сутки</a></h3>
+            <p class="cat_address">1-й Монечковский пер, д.18 <br />
+              м. Новокузнецкая (10 мин.)</p>
+            <a href="#" class="link_map">показать на карте</a>
+            <p class="p_id">ID 100500</p>
+            <p class="p_phone">8 (903) 508-37-55  Антон</p>
+            <p>Для порядочных и вежливых путешественников! Уютная, просторная, красивая квартира. Расположена в историческом центре Москвы. В пешей доступности от пяти станций метро павелецкая(зеленая и кольцевая ветки метро), добрынинская</p>
+            <a href="#" class="link_more">подробнее</a> </div>
+        </div>
+		<div class="div_cat">
+          <div class="cat_pic"> <a href="i/pic_big.jpg" rel="colorbox3"><img src="i/pic_cat.jpg" alt="" /></a>
+            <p><a href="#">Еще 4 фото</a></p>
+            <span>&nbsp;;</span> </div>
+          <div class="info_cat">
+            <p>сутки 3190 руб.<br />
+              час 350 руб.</p>
+            <h3><a href="#">1-комнатная квартира на сутки</a></h3>
+            <p class="cat_address">1-й Монечковский пер, д.18 <br />
+              м. Новокузнецкая (10 мин.)</p>
+            <a href="#" class="link_map">показать на карте</a>
+            <p class="p_id">ID 100500</p>
+            <p class="p_phone">8 (903) 508-37-55  Антон</p>
+            <p>Для порядочных и вежливых путешественников! Уютная, просторная, красивая квартира. Расположена в историческом центре Москвы. В пешей доступности от пяти станций метро павелецкая(зеленая и кольцевая ветки метро), добрынинская</p>
+            <a href="#" class="link_more">подробнее</a> </div>
+        </div>
+		<div class="div_cat">
+          <div class="cat_pic"> <a href="i/pic_big.jpg" rel="colorbox4"><img src="i/pic_cat.jpg" alt="" /></a>
+            <p><a href="#">Еще 4 фото</a></p>
+            <span>&nbsp;;</span> </div>
+          <div class="info_cat">
+            <p>сутки 3190 руб.<br />
+              час 350 руб.</p>
+            <h3><a href="#">1-комнатная квартира на сутки</a></h3>
+            <p class="cat_address">1-й Монечковский пер, д.18 <br />
+              м. Новокузнецкая (10 мин.)</p>
+            <a href="#" class="link_map">показать на карте</a>
+            <p class="p_id">ID 100500</p>
+            <p class="p_phone">8 (903) 508-37-55  Антон</p>
+            <p>Для порядочных и вежливых путешественников! Уютная, просторная, красивая квартира. Расположена в историческом центре Москвы. В пешей доступности от пяти станций метро павелецкая(зеленая и кольцевая ветки метро), добрынинская</p>
+            <a href="#" class="link_more">подробнее</a> </div>
+        </div>
+		 <ul class="nav_page">
+          <li class="prev_1"><a href="#">&nbsp;</a></li>
+          <li class="prev_2"><a href="#">&nbsp;</a></li>
+          <li><span>1</span></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">6</a></li>
+          <li class="span_tire"><span>...</span></li>
+          <li><a href="#">50</a></li>
+          <li class="next_2"><a href="#">&nbsp;</a></li>
+          <li class="next_1"><a href="#">&nbsp;</a></li>
+        </ul>
+		
+		
+      </div>
+    </div>
+  </div>
+  <!--section-->
+  <div class="hfooter"></div>
+</div>
+<!--main-->
+<div class="footer">
+  <div class="foot">
+    <ul class="nav_f">
+      <li><a href="#">Полезная информация</a></li>
+      <li><a href="#">Реклама на сайте</a></li>
+      <li><a href="#">Вопросы и ответы</a></li>
+      <li><a href="#">Разместить предложение</a></li>
+      <li><a href="#">Отзывы о нас</a></li>
+      <li><a href="#">Связаться с нами</a></li>
+    </ul>
+    <ul class="sozial">
+      <li><a href="#">&nbsp;</a></li>
+      <li><a href="#">&nbsp;</a></li>
+      <li><a href="#">&nbsp;</a></li>
+      <li><a href="#">&nbsp;</a></li>
+      <li><a href="#">&nbsp;</a></li>
+      <li><a href="#">&nbsp;</a></li>
+      <li><a href="#">&nbsp;</a></li>
+    </ul>
+    <p class="copy">&copy; Copyright 2013 - Kvartirni</p>
+    <a href="index.html"><img src="i/logo_f.png" alt="" class="logo-f" /></a> <a href="index.html"><img src="i/logo_d.png" alt="" class="logo-d" /></a> </div>
+</div>
+<!--footer-->
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/jquery.colorbox-min.js" type="text/javascript"></script>
+<script type="text/javascript">
+        $(document).ready(function () {
+                    $(".cat_pic a").colorbox();
+					$(".carousel a").colorbox();
+        });
+    </script>
+<script type="text/javascript" src="js/coin-slider.js"></script>
+<script type="text/javascript">
+$('#coin-slider').coinslider();
+</script>
+<script type="text/javascript" src="js/test.js"></script>
+<script type="text/javascript" src="js/select.js"></script>
+<script type="text/javascript">$(document).ready(function(){$('.selectBlock').sSelect();});</script>
+<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+	jQuery('.d-carousel .carousel').jcarousel({
+        scroll: 1
+    });
+});
+</script>
+<script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>

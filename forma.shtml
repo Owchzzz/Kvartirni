@@ -1,0 +1,13 @@
+<html>
+<form action=pd4.php method=post>
+Name <input name="name"><br>
+Address <input name="address"><br>
+Value <input name="value"><br>
+Servicename <input name="servicename"><br>
+Dogovor <input name="dogovor"><br>
+Daypay <input name="daypay"><br>
+Monthpay <input name="monthpay"><br>
+Yearpay <input name="yearpay"><br>
+<input type=submit>
+</form>
+</html>
